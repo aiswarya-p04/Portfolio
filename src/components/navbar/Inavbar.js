@@ -3,37 +3,45 @@ import "./inavbar.css";
 import Navbar from 'react-bootstrap/Navbar'
 import Container from '@mui/material/Container';
 import Nav from 'react-bootstrap/Nav';
+import {Link} from "react-router-dom";
+
+
 
 
 const Inavbar = () => {
    
   return (
     <>
-<Navbar bg="light" expand="lg" className='nav-bar' sticky="top">
+   
+<Navbar  expand="lg" className='nav-bar' sticky="top">
   <Container>
     {/* <Navbar.Brand href="#home">Portfolio</Navbar.Brand> */}
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
-      <Navbar.Brand className='brand' href="#home">Portfolio</Navbar.Brand>
-        <Nav.Link href="#home" className='links'>Home</Nav.Link>
-        <Nav.Link href="#" className='links'>About</Nav.Link>
-        <Nav.Link href="#" className='links'>Skills</Nav.Link>
-        <Nav.Link href="#" className='links'>Experience</Nav.Link>
-        <Nav.Link href="#" className='links'>Education</Nav.Link>
-        <Nav.Link href="#" className='links'>Publication</Nav.Link>
-        <Nav.Link href="#" className='links'>Certificates</Nav.Link>
-        <Nav.Link href="#" className='links'>Projects</Nav.Link>
-        <Nav.Link href="#" className='links'>Languages</Nav.Link>
-        <Nav.Link href="#" className='links'>Contact</Nav.Link>
-        <Nav.Link href="#" className='links'>Hobbies</Nav.Link>
+      <Navbar.Brand className='brand' href="/">Portfolio</Navbar.Brand>
+        <Link to="/intro" className='links'>Intro</Link>
+        <Link to="/about" className='links'>About</Link>
+        <Link to="#" className='links'>Skills</Link>
+        <Link to="#" className='links'>Experience</Link>
+        <Link to="#" className='links'>Education</Link>
+        <Link to="#" className='links'>Publication</Link>
+        <Link to="#" className='links'>Certificates</Link>
+        <Link to="#" className='links'>Projects</Link>
+        <Link to="#" className='links'>Languages</Link>
+        <Link to="/Contact" className='links'>Contact</Link>
+        <Link to="#" className='links'>Hobbies</Link>
         
       </Nav>
     </Navbar.Collapse>
   </Container>
 </Navbar>
+
+
+
     </>
   )
+  
 }
 
 export default Inavbar

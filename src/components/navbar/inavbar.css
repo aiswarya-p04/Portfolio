@@ -7,7 +7,7 @@
 }
 .nav-bar{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  
+  background: hsl(205, 86%, 81%);
 }
 .brand{
 flex: 5;
@@ -25,4 +25,15 @@ font-weight: 500;
   flex: 1;
   /* justify-content: space-between; */
   /* color: white; */
+  text-decoration: none;
+  padding: 10px;
+  justify-content: space-between;
+  color: grey;
+  transition:all 0.3s linear;
+}
+
+.links:hover{
+  /* background: hsl(205, 86%, 81%); */
+  color: hsl(205, 78%, 60%);
+  /* padding-left: 1.5rem; */
 }
