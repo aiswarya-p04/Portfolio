@@ -1,0 +1,51 @@
+.exp{
+    height: 100vh;
+}
+.exp-l{
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    list-style: none;
+}
+.exp-name{
+    /* padding: 20px; */
+    margin: 10px;
+}
+.exp-date{
+    margin:0px 10px;
+    font-weight: 300;
+    font-style: italic;
+}
+.exp-all{
+    display: flex;
+}
+
+.exp-left{
+    flex:1;
+    padding: 30px;
+}
+
+.exp-right{
+    flex:1;
+    padding: 30px;
+}
+.exp-t{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.exp-desc{
+    margin: 0px 10px;
+    font-style: italic;
+    color: grey;
+    font-weight: 500;
+}
+.exp-tasks{
+    margin: 0 10px;
+    
+}
+.et{
+    text-decoration: underline;
+}

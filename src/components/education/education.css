@@ -1,0 +1,53 @@
+.ed{
+    height: 100vh;
+}
+.edu{
+    display: flex;
+    /* background-color: green; */
+margin: 40px;
+padding: 10px;
+font-family:cursive;
+justify-items: center;
+
+}
+.left{
+    flex: 1;
+    padding: 40px;
+    margin: 30px;
+    background-color: rgb(1, 59, 1);
+    border-radius: 60px;
+    box-shadow: 0 5px 15px lightgreen;
+    color: white;
+    font-size: 20px;
+}
+.middle{
+    flex: 1;
+    padding: 40px;
+    margin: 30px;
+    background-color: rgb(1, 59, 1);
+    border-radius: 60px;
+    box-shadow: 0 5px 15px lightgreen;
+    color: white;
+    font-size: 20px;
+}
+.right{
+    flex: 1;
+    padding: 40px;
+    margin: 30px;
+    background-color: rgb(1, 59, 1);
+    border-radius: 60px;
+    box-shadow: 0 5px 15px lightgreen;
+    color: white;
+    font-size: 20px;
+}
+.tit{
+    font-weight: 700;
+   
+}
+.clg{
+    font-weight: 500;
+}
+
+.per{
+    font-style: italic;
+}

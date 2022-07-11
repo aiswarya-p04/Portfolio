@@ -10,6 +10,8 @@ import Home from "./components/Home";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/skills/Skills";
 import Publication from "./components/Publication/Publication";
+import Experience from "./components/experience/Experience";
+import Education from "./components/education/Education";
 
 function App() {
   return (
@@ -29,6 +31,10 @@ function App() {
           element={<About />} />
         <Route path="/skills"
           element={<Skills />} />
+          <Route path="/experience"
+          element={<Experience />} />
+          <Route path="/education"
+          element={<Education />} />
           <Route path="/publication"
           element={<Publication />} />
 

@@ -23,8 +23,8 @@ const Inavbar = () => {
         <Link to="/intro" className='links'>Intro</Link>
         <Link to="/about" className='links'>About</Link>
         <Link to="/skills" className='links'>Skills</Link>
-        <Link to="#" className='links'>Experience</Link>
-        <Link to="#" className='links'>Education</Link>
+        <Link to="/experience" className='links'>Experience</Link>
+        <Link to="/education" className='links'>Education</Link>
         <Link to="/publication" className='links'>Publication</Link>
         <Link to="#" className='links'>Certificates</Link>
         <Link to="#" className='links'>Projects</Link>
