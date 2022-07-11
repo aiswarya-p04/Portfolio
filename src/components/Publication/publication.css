@@ -1,0 +1,57 @@
+.publication{
+    
+    padding: 60px;
+    margin: 10px;
+    
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+.h22{
+    font-weight: 650;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pub{
+    display: flex;
+    padding: 50px 20px;
+}
+.pub-left{
+    flex: 1;
+    background-color: red;
+}
+.pub-right{
+flex: 3;
+background-color: orange;
+padding: 50px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.pub-about{
+    align-items: center;
+    
+    padding: 10px;
+}
+
+.p-link{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.btn-link{
+    border-radius: 30px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.pub-img{
+    width: 100%;
+    height: 100%;
+}

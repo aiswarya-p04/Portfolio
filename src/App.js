@@ -9,6 +9,7 @@ import {
 import Home from "./components/Home";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/skills/Skills";
+import Publication from "./components/Publication/Publication";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           element={<About />} />
         <Route path="/skills"
           element={<Skills />} />
+          <Route path="/publication"
+          element={<Publication />} />
 
         <Route path="/contact"
           element={<Contact />} />
