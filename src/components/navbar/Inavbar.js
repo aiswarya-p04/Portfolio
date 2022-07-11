@@ -22,7 +22,7 @@ const Inavbar = () => {
       <Navbar.Brand className='brand' href="/">Portfolio</Navbar.Brand>
         <Link to="/intro" className='links'>Intro</Link>
         <Link to="/about" className='links'>About</Link>
-        <Link to="#" className='links'>Skills</Link>
+        <Link to="/skills" className='links'>Skills</Link>
         <Link to="#" className='links'>Experience</Link>
         <Link to="#" className='links'>Education</Link>
         <Link to="#" className='links'>Publication</Link>

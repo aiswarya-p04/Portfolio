@@ -3,6 +3,7 @@ import React from 'react'
 import Intro from './intro/Intro';
 import About from './about/About';
 import Contact from './Contact/Contact';
+import Skills from './skills/Skills';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       {/* <Inavbar /> */}
       <Intro />
       <About />
+      <Skills/>
       <Contact/>
     </div>
   )

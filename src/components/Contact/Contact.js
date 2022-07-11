@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
             <div className="c-right">
                 <p className="c-desc">
-                    <b>Lets get in touch</b>
+                    <b>Let's get in touch</b>
                 </p>
                 <form>
                 <input className='inputt' type="text" placeholder="Name" name="user_name" />

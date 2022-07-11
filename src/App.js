@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/Contact/Contact";
+import Skills from "./components/skills/Skills";
 
 function App() {
   return (
@@ -25,8 +26,10 @@ function App() {
 
         <Route path="/about"
           element={<About />} />
+        <Route path="/skills"
+          element={<Skills />} />
 
-<Route path="/contact"
+        <Route path="/contact"
           element={<Contact />} />
         
 
