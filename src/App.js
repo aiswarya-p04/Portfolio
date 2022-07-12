@@ -12,6 +12,7 @@ import Skills from "./components/skills/Skills";
 import Publication from "./components/Publication/Publication";
 import Experience from "./components/experience/Experience";
 import Education from "./components/education/Education";
+import Certificate from "./components/certificates/Certificate";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
           element={<Education />} />
           <Route path="/publication"
           element={<Publication />} />
+          <Route path="/certificate"
+          element={<Certificate />} />
 
         <Route path="/contact"
           element={<Contact />} />

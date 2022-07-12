@@ -8,7 +8,7 @@ const Publication = () => {
     }
   return (
     <div className='publication'>
-      <h1>Paper Publication : (IEEE)</h1>
+      <h1>Paper Publication : (IEEE ACTS 2020)</h1>
       <div className='h22'>Emotion recognition by inclusion of age and gender parameters with a novel hierarchical approach using deep learning:</div>
       <div className="pub">
       <div className="pub-left">

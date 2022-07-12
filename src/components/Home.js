@@ -7,6 +7,7 @@ import Skills from './skills/Skills';
 import Publication from './Publication/Publication';
 import Experience from './experience/Experience';
 import Education from './education/Education';
+import Certificate from './certificates/Certificate';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Experience/>
       <Education/>
       <Publication/>
+      <Certificate/>
       <Contact/>
     </div>
   )
