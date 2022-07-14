@@ -13,6 +13,7 @@ import Publication from "./components/Publication/Publication";
 import Experience from "./components/experience/Experience";
 import Education from "./components/education/Education";
 import Certificate from "./components/certificates/Certificate";
+import Project from "./components/project/Project";
 
 function App() {
   return (
@@ -40,6 +41,8 @@ function App() {
           element={<Publication />} />
           <Route path="/certificate"
           element={<Certificate />} />
+          <Route path="/project"
+          element={<Project />} />
 
         <Route path="/contact"
           element={<Contact />} />

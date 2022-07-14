@@ -27,10 +27,10 @@ const Inavbar = () => {
         <Link to="/education" className='links'>Education</Link>
         <Link to="/publication" className='links'>Publication</Link>
         <Link to="/certificate" className='links'>Certificates</Link>
-        <Link to="#" className='links'>Projects</Link>
+        <Link to="/project" className='links'>Projects</Link>
         <Link to="#" className='links'>Languages</Link>
         <Link to="/Contact" className='links'>Contact</Link>
-        <Link to="#" className='links'>Hobbies</Link>
+        {/* <Link to="#" className='links'>Hobbies</Link> */}
         
       </Nav>
     </Navbar.Collapse>
